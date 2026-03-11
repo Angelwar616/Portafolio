@@ -4,7 +4,7 @@ export default function Stats() {
   const stats = [
     { num: '3+', label: 'Años de experiencia' },
     { num: '12+', label: 'Proyectos completados' },
-    { num: '8+', label: 'Tecnologías' },
+    { num: '8c+', label: 'Tecnologías' },
     { num: '100%', label: 'Comprometido' }
   ];
 

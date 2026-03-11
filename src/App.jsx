@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Stats from './components/Stats';
+import Stats from './components/Stats.jsx';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -27,10 +27,8 @@ export default function App() {
           `,
           backgroundSize: '48px 48px'
         }}
-      />
-      
+      />   
  
-      
       <div className="relative z-10">
         <Header scrollY={scrollY} />
         <Hero />
