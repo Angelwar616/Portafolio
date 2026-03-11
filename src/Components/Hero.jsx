@@ -18,7 +18,7 @@ export default function Hero() {
         >
           Hola, soy<br />
           <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-            Tu Nombre
+            Alexander Molina
           </span>
         </h1>
 
