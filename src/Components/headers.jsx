@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Header({ scrollY }) {
+export default function Headers({ scrollY }) {
   
 
   const navLinks = [

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import Header from './components/Header.jsx';
 import Hero from './components/Hero.jsx';
 import Stats from './components/Stats.jsx';
 import Skills from './components/Skills.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
+import Headers from './components/headers.jsx';
 
 export default function App() {
   const [scrollY, setScrollY] = useState(0);
@@ -30,7 +30,8 @@ export default function App() {
       />   
  
       <div className="relative z-10">
-        <Header scrollY={scrollY} />
+        
+        <Headers scrollY={scrollY} />
         <Hero />
         <Stats />
         <Skills />
