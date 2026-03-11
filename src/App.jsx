@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import Hero from './components/Hero';
-import Stats from './components/Stats';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Headers from './components/headers';
+import Hero from './components/Hero.jsx';
+import Stats from './components/Stats.jsx';
+import Skills from './components/Skills.jsx';
+import Projects from './components/Projects.jsx';
+import Contact from './components/Contact.jsx';
+import Footer from './components/Footer.jsx';
+import Headers from './components/headers.jsx';
 
 export default function App() {
   const [scrollY, setScrollY] = useState(0);
