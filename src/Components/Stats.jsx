@@ -13,13 +13,13 @@ export default function Stats() {
       {stats.map((stat, idx) => (
         <div
           key={idx}
-          className="bg-gradient-to-br from-slate-800/50 to-slate-900/30 border border-slate-700/50 rounded-xl p-8 hover:border-cyan-500/30 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/10 group"
+          className="bg-linear-to-br from-slate-800/50 to-slate-900/30 border border-slate-700/50 rounded-xl p-8 hover:border-cyan-500/30 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/10 group"
           style={{
             animation: `slideIn 0.6s ease ${idx * 0.1}s forwards`,
             opacity: 0
           }}
         >
-          <div className="text-4xl font-black text-transparent bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text mb-3">
+          <div className="text-4xl font-black text-transparent bg-linear-to-r from-blue-400 to-cyan-400 bg-clip-text mb-3">
             {stat.num}
           </div>
           <div className="text-slate-400 text-sm font-medium tracking-wide">

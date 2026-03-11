@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
+import Header from './components/Header.jsx';
+import Hero from './components/Hero.jsx';
 import Stats from './components/Stats.jsx';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Skills from './components/Skills.jsx';
+import Projects from './components/Projects.jsx';
+import Contact from './components/Contact.jsx';
+import Footer from './components/Footer.jsx';
 
 export default function App() {
   const [scrollY, setScrollY] = useState(0);
@@ -19,7 +19,7 @@ export default function App() {
   return (
     <div className="bg-slate-950 text-slate-100 overflow-x-hidden">
       <div 
-        className="fixed inset-0 bg-gradient-to-b from-cyan-950/5 via-transparent to-transparent pointer-events-none z-0"
+        className="fixed inset-0 bg-linear-to-b from-cyan-950/5 via-transparent to-transparent pointer-events-none z-0"
         style={{
           backgroundImage: `
             linear-gradient(rgba(6,182,212,0.04) 1px, transparent 1px),
